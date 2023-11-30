@@ -141,7 +141,8 @@ const runAction = () => {
 				log(`Attempt ${i + 1} failed:`);
 				log(err);
 			} else {
-				throw err;
+				//throw err;
+				log(err);
 			}
 		}
 	}
